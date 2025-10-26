@@ -6,6 +6,7 @@ const { getStreamUrl } = require('./webcam_scraper');
 const PORT = process.env.PORT || 3000;  // Port from environment for Render
 
 const server = http.createServer((req, res) => {
+  console.log(`GET ${req.url}`); // Log incoming request
   const reqUrl = new URL(req.url, `http://${req.headers.host}`);
   if (reqUrl.pathname === '/stream-url') {
     const targetUrl = reqUrl.searchParams.get('url');
