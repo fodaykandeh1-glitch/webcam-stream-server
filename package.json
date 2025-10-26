@@ -6,7 +6,5 @@
   "scripts": {
     "start": "node node_stream_server.js"
   },
-  "dependencies": {
-   
-  }
+  "dependencies": {}
 }
