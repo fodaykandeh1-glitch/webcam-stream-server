@@ -7,6 +7,6 @@
     "start": "node node_stream_server.js"
   },
   "dependencies": {
-    <!-- No external dependencies needed; uses Node's built-in http/https -->
+   
   }
 }
