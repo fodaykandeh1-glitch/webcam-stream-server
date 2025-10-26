@@ -1,0 +1,12 @@
+{
+  "name": "webcam-stream-server",
+  "version": "1.0.0",
+  "description": "Basic Node.js HTTP API to fetch webcam stream URLs",
+  "main": "node_stream_server.js",
+  "scripts": {
+    "start": "node node_stream_server.js"
+  },
+  "dependencies": {
+    <!-- No external dependencies needed; uses Node's built-in http/https -->
+  }
+}
