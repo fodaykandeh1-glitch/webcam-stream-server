@@ -6,5 +6,8 @@
   "scripts": {
     "start": "node node_stream_server.js"
   },
-  "dependencies": {}
+  "dependencies": {
+  "cheerio": "^1.0.0-rc.12"
+}
+
 }
